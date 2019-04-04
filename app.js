@@ -5,6 +5,7 @@ const cors = require('@koa/cors');
 const loginRouter =  require('./router/login');
 const restApi = require('./api');
 const app = new Koa();
+/* 允许跨域异步访问 */
 app.use(cors());
 app.use(async (ctx, next) => {
     console.log(`Process ${ctx.request.method} ${ctx.request.url}...`)
