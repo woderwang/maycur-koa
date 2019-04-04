@@ -1,10 +1,11 @@
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
 // const controller = require('./controller');
+const cors = require('@koa/cors');
 const loginRouter =  require('./router/login');
 const restApi = require('./api');
 const app = new Koa();
-
+app.use(cors());
 app.use(async (ctx, next) => {
     console.log(`Process ${ctx.request.method} ${ctx.request.url}...`)
     await next();
