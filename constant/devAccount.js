@@ -338,7 +338,12 @@ let account = [{
 	"account": "mc1812121d1ct0jk@dingtalk.com",
 	"name": "陆健卿",
 	"searchKey": "陆健卿ljq"
-}, {
+},{
+	"env": "dev",
+	"account": "mc18092613xsx9ts@dingtalk.com",
+	"name": "邱蒙蒙",
+	"searchKey": "邱蒙蒙qmm"
+},{
 	"env": "uat",
 	"account": "mc1903041i98yx34@dingtalk.com",
 	"name": "黄渊",
@@ -663,5 +668,10 @@ let account = [{
 	"account": "mc1812111nlfi0w0@dingtalk.com",
 	"name": "陆健卿",
 	"searchKey": "陆健卿ljq"
+},{
+	"env": "uat",
+	"account": "mc180926zt5wtts@dingtalk.com",
+	"name": "邱蒙蒙",
+	"searchKey": "邱蒙蒙qmm"
 }];
 module.exports = account;
