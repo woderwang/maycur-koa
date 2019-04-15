@@ -280,11 +280,6 @@ let account = [{
 	"searchKey": "项子晨xzc"
 }, {
 	"env": "dev",
-	"account": "mc18092613xsx9ts@dingtalk.com",
-	"name": "邱蒙蒙",
-	"searchKey": "邱蒙蒙qmm"
-}, {
-	"env": "dev",
 	"account": "mc1810121etm6fwg@dingtalk.com",
 	"name": "风尘",
 	"searchKey": "风尘fc"
@@ -608,11 +603,6 @@ let account = [{
 	"account": "mc180917102kdzb4@dingtalk.com",
 	"name": "项子晨",
 	"searchKey": "项子晨xzc"
-}, {
-	"env": "uat",
-	"account": "mc180926zt5wtts@dingtalk.com",
-	"name": "邱蒙蒙",
-	"searchKey": "邱蒙蒙qmm"
 }, {
 	"env": "uat",
 	"account": "mc1810111ik5yneo@dingtalk.com",
