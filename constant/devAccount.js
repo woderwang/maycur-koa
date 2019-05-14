@@ -333,12 +333,22 @@ let account = [{
 	"account": "mc1812121d1ct0jk@dingtalk.com",
 	"name": "陆健卿",
 	"searchKey": "陆健卿ljq"
-},{
+}, {
 	"env": "dev",
 	"account": "mc18092613xsx9ts@dingtalk.com",
 	"name": "邱蒙蒙",
 	"searchKey": "邱蒙蒙qmm"
-},{
+}, {
+	"env": "dev",
+	"account": "mc19042211k06z9c@dingtalk.com",
+	"name": "朱浩龙",
+	"searchKey": "朱浩龙zhl"
+}, {
+	"env": "dev",
+	"account": "mc190428yx9bs3k@dingtalk.com",
+	"name": "李品品",
+	"searchKey": "李品品lpp"
+}, {
 	"env": "uat",
 	"account": "mc1903041i98yx34@dingtalk.com",
 	"name": "黄渊",
@@ -658,10 +668,65 @@ let account = [{
 	"account": "mc1812111nlfi0w0@dingtalk.com",
 	"name": "陆健卿",
 	"searchKey": "陆健卿ljq"
-},{
+}, {
 	"env": "uat",
 	"account": "mc180926zt5wtts@dingtalk.com",
 	"name": "邱蒙蒙",
 	"searchKey": "邱蒙蒙qmm"
+}, {
+	"env": "dev2",
+	"account": "mc19040914fsyxsyx@dingtalk.com",
+	"name": "孙翊轩",
+	"searchKey": "孙翊轩syx"
+}, {
+	"env": "dev2",
+	"account": "mc1904091oifc4cg@dingtalk.com",
+	"name": "张哲",
+	"searchKey": "张哲zz"
+}, {
+	"env": "dev2",
+	"account": "mc1904111kexu0sg@dingtalk.com",
+	"name": "姜子牙",
+	"searchKey": "姜子牙jzy"
+}, {
+	"env": "dev2",
+	"account": "mc1904111kf47dkw@dingtalk.com",
+	"name": "龚先兵",
+	"searchKey": "gxb"
+}, {
+	"env": "dev2",
+	"account": "mc1904111kf82e80@dingtalk.com",
+	"name": "游贇周",
+	"searchKey": "游贇周yyz"
+}, {
+	"env": "dev2",
+	"account": "mc1904111kfacnls@dingtalk.com",
+	"name": "余旋",
+	"searchKey": "余旋yx"
+}, {
+	"env": "dev2",
+	"account": "mc1904111kfdm2rk@dingtalk.com",
+	"name": "唐超",
+	"searchKey": "唐超tc"
+}, {
+	"env": "dev2",
+	"account": "mc1904111kfh9ri8@dingtalk.com",
+	"name": "浅雪",
+	"searchKey": "浅雪qx"
+}, {
+	"env": "dev2",
+	"account": "mc1904111lecqsu8@dingtalk.com",
+	"name": "叶正卿",
+	"searchKey": "叶正卿yzq"
+}, {
+	"env": "dev2",
+	"account": "mc19041310wlrw5c@dingtalk.com",
+	"name": "陈冬",
+	"searchKey": "陈冬cd"
+}, {
+	"env": "dev2",
+	"account": "mc1905081i1br6gw@dingtalk.com",
+	"name": "周重智",
+	"searchKey": "周重智zzz"
 }];
 module.exports = account;
