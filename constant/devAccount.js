@@ -665,7 +665,7 @@ let account = [{
 	"searchKey": "郑全武zqw"
 }, {
 	"env": "uat",
-	"account": "mc1812111nlfi0w0@dingtalk.com",
+	"account": "mc180910ye0bev4@dingtalk.com",
 	"name": "陆健卿",
 	"searchKey": "陆健卿ljq"
 }, {
