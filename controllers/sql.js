@@ -12,7 +12,6 @@ const formatSql = ({ tableName, selects = [], wheres = [] }) => {
 
 /* 链接数据库操作通用方法 */
 const connectMySql = (sql) => {
-    console.log(sql)
     const pool = mysql.createPool(CONFIG);
     return new Promise((resolve, reject) => {
         pool.getConnection((err, conn) => {
@@ -42,7 +41,6 @@ const searchData = (options = {}, sqlText) => {
             connectMySql(query).then(res => {
                 resolve(res);
             }, err => {
-                console.log('connect err')
                 reject(err);
             });
         }

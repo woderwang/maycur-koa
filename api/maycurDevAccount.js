@@ -2,8 +2,9 @@ let Router = require('koa-router');
 let Sql = require('../controllers/sql');
 let router = new Router();
 
-router.get('/dev-account/:env', (ctx, next) => {
-    return Sql.searchData({ tableName: 'dev_account', wheres: [`env="${ctx.params.env}"`] }).then(res => {
+router.get('/dev-account/:env?', (ctx, next) => {
+    let wheres = ctx.params.env ? [`env="${ctx.params.env}"`] : [];
+    return Sql.searchData({ tableName: 'dev_account', wheres }).then(res => {
         ctx.body = res;
     }, err => {
         throw Error(err);
