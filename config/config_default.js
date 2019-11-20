@@ -48,6 +48,6 @@ module.exports = {
     },
 
     urlPrefix: {
-        prefix: '',
+        prefix: '/koa/api',
     },
 };

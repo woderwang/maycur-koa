@@ -12,6 +12,7 @@ Account.init({
     id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
+        autoIncrementIdentity: true,
     },
     account: {
         type: Sequelize.STRING,

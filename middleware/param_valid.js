@@ -20,7 +20,7 @@ module.exports = (paramSchema) => {
         if (paramSchema && schemaKeys.length > 0) {
             // 参数检查
             schemaKeys.forEach(item => {
-                let validResult = paramSchema[item].validate(reqParam[item]);
+                let validResult = paramSchema[item].validate(reqParam[item], {allowUnknown: true});
                 if (validResult.error) {
                     log.error('[param error]: ', validResult.error.message);
                     ctx.throw(500, new Error('参数错误'));

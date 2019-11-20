@@ -39,7 +39,7 @@ const logger = createLogger({
                     }
                 });
             }
-            return `[${timestamp}]-[${level}]-[${process.pid}]: ${more.join(' ')}`;
+            return `[${timestamp}] - [${level}] - [${process.pid}]: ${more.join(' ')}`;
         }),
     ),
 });
