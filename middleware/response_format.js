@@ -23,10 +23,10 @@ module.exports = function() {
             ctx.status = err.status || 200;
             log.warn('server warn:', ctx.request.method, ctx.request.originalUrl, ctx.path, ctx.status);
             log.warn('server warn reqParams:', JSON.stringify(ctx.reqParams, null, '\t'));
-            log.error(err);
+            log.error('server error:', err);
 
             ctx.body = {
-                code: null,
+                code: 'NACK',
                 data: null,
                 message: err.message,
             };
