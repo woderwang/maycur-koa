@@ -7,6 +7,14 @@ const Account = require('../model/account');
 const {Op} = Sequelize;
 
 module.exports = {
+    /**
+     * 获取全部账号信息
+     */
+    fetchAllAccount: async ctx => {
+        const data = await Account.findAll({where: {invalid: C.CHAR.NO}});
+
+        ctx.body = data;
+    },
 
     /**
      * 获取账号信息

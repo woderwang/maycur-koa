@@ -11,7 +11,7 @@ module.exports = function() {
         try {
             await next();
             // 兼容旧接口
-            if (!(ctx.request.method === 'GET' && ctx.path.indexOf('/dev-account/') >= 0)) {
+            if (!(ctx.request.method === 'GET' && ctx.path.indexOf('/dev-account') >= 0)) {
                 ctx.body = {
                     code: 'ACK',
                     data: ctx.body,

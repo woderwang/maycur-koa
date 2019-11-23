@@ -8,6 +8,11 @@ module.exports = [
     // 获取账号信息
     {
         method: 'get',
+        path: '/dev-account',
+        controller: accountCtrl.fetchAllAccount,
+    },
+    {
+        method: 'get',
         path: '/dev-account/:env',
         controller: accountCtrl.fetchAccount,
         paramSchema: accountSchema.fetchAccount,
