@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@types/hapi__joi": "^16.0.3",
-    "@types/koa": "^2.0.48"
+    "@types/koa": "^2.0.48",
+    "urijs": ">=1.19.6"
   }
 }
